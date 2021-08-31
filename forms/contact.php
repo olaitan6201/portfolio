@@ -20,8 +20,8 @@ $txt = htmlspecialchars($_POST['text']);
 $content = 'Message From: '.$_POST['name']."\r\n";
 $content .= $txt;
 
-send_mail($from, 'olaitan6201@gmail.com', $subject, $content, '');
-send_mail($from, 'olaitan.habeeb.001@gmail.com', $subject, $content, '');
-
+$first_mail = send_mail($from, 'olaitan6201@gmail.com', $subject, $content, '');
+$second_mail = send_mail($from, 'olaitan.habeeb.001@gmail.com', $subject, $content, '');
+return true;
 // header('location: ../');
 ?>
