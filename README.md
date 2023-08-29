@@ -1,2 +1,2 @@
-# olaitan.github.io
+# olaitan.github.io/portfolio
  Olaitan Habeeb's portfolio
